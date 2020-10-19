@@ -1,0 +1,92 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 90624882,
+            "tagId": 28654265,
+            "name": "train",
+            "value": null,
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-17T23:35:05.247Z",
+            "updatedAt": "2020-10-17T23:35:05.247Z"
+        }
+    ],
+    "size": {
+        "height": 224,
+        "width": 224
+    },
+    "objects": [
+        {
+            "id": 544194935,
+            "classId": 2537979,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:34.477Z",
+            "updatedAt": "2020-10-18T23:24:34.477Z",
+            "tags": [],
+            "classTitle": "road",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        98.65625
+                    ],
+                    [
+                        223.890625,
+                        223.78125
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544194932,
+            "classId": 2537982,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:34.476Z",
+            "updatedAt": "2020-10-18T23:24:34.476Z",
+            "tags": [],
+            "classTitle": "building",
+            "points": {
+                "exterior": [
+                    [
+                        80.9375,
+                        0
+                    ],
+                    [
+                        191.625,
+                        101.0625
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544194919,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:34.471Z",
+            "updatedAt": "2020-10-18T23:24:34.471Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        91.984375,
+                        91
+                    ],
+                    [
+                        103.6875,
+                        111.78125
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

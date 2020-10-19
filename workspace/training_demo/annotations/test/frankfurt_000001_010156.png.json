@@ -1,0 +1,356 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 90625379,
+            "tagId": 28654266,
+            "name": "val",
+            "value": null,
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-17T23:35:46.525Z",
+            "updatedAt": "2020-10-17T23:35:46.525Z"
+        }
+    ],
+    "size": {
+        "height": 224,
+        "width": 224
+    },
+    "objects": [
+        {
+            "id": 544229772,
+            "classId": 2537979,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.034Z",
+            "updatedAt": "2020-10-18T23:24:50.034Z",
+            "tags": [],
+            "classTitle": "road",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        95.59375
+                    ],
+                    [
+                        223.890625,
+                        223.78125
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229771,
+            "classId": 2537982,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.034Z",
+            "updatedAt": "2020-10-18T23:24:50.034Z",
+            "tags": [],
+            "classTitle": "building",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        159.359375,
+                        115.0625
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229749,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.026Z",
+            "updatedAt": "2020-10-18T23:24:50.026Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        93.953125,
+                        84.875
+                    ],
+                    [
+                        109.8125,
+                        109.15625
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229741,
+            "classId": 2537983,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.024Z",
+            "updatedAt": "2020-10-18T23:24:50.024Z",
+            "tags": [],
+            "classTitle": "person",
+            "points": {
+                "exterior": [
+                    [
+                        8.640625,
+                        80.5
+                    ],
+                    [
+                        62.5625,
+                        121.84375
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229737,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.024Z",
+            "updatedAt": "2020-10-18T23:24:50.024Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        1.859375,
+                        94.0625
+                    ],
+                    [
+                        21.328125,
+                        128.625
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229736,
+            "classId": 2537983,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.024Z",
+            "updatedAt": "2020-10-18T23:24:50.024Z",
+            "tags": [],
+            "classTitle": "person",
+            "points": {
+                "exterior": [
+                    [
+                        1.421875,
+                        73.9375
+                    ],
+                    [
+                        12.25,
+                        136.5
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229735,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.023Z",
+            "updatedAt": "2020-10-18T23:24:50.023Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        89.25
+                    ],
+                    [
+                        9.40625,
+                        144.59375
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229724,
+            "classId": 2537982,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.021Z",
+            "updatedAt": "2020-10-18T23:24:50.021Z",
+            "tags": [],
+            "classTitle": "building",
+            "points": {
+                "exterior": [
+                    [
+                        151.375,
+                        0
+                    ],
+                    [
+                        223.890625,
+                        118.5625
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229704,
+            "classId": 2537983,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.016Z",
+            "updatedAt": "2020-10-18T23:24:50.016Z",
+            "tags": [],
+            "classTitle": "person",
+            "points": {
+                "exterior": [
+                    [
+                        153.5625,
+                        77.21875
+                    ],
+                    [
+                        170.296875,
+                        107.40625
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229703,
+            "classId": 2537983,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.016Z",
+            "updatedAt": "2020-10-18T23:24:50.016Z",
+            "tags": [],
+            "classTitle": "person",
+            "points": {
+                "exterior": [
+                    [
+                        158.375,
+                        73.28125
+                    ],
+                    [
+                        166.25,
+                        111.34375
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229694,
+            "classId": 2537983,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.014Z",
+            "updatedAt": "2020-10-18T23:24:50.014Z",
+            "tags": [],
+            "classTitle": "person",
+            "points": {
+                "exterior": [
+                    [
+                        169.859375,
+                        67.8125
+                    ],
+                    [
+                        175.765625,
+                        113.96875
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229693,
+            "classId": 2537983,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.014Z",
+            "updatedAt": "2020-10-18T23:24:50.014Z",
+            "tags": [],
+            "classTitle": "person",
+            "points": {
+                "exterior": [
+                    [
+                        170.953125,
+                        62.78125
+                    ],
+                    [
+                        180.359375,
+                        125.125
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229692,
+            "classId": 2537983,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.014Z",
+            "updatedAt": "2020-10-18T23:24:50.014Z",
+            "tags": [],
+            "classTitle": "person",
+            "points": {
+                "exterior": [
+                    [
+                        180.03125,
+                        66.5
+                    ],
+                    [
+                        192.390625,
+                        124.46875
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544229691,
+            "classId": 2537983,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:50.013Z",
+            "updatedAt": "2020-10-18T23:24:50.013Z",
+            "tags": [],
+            "classTitle": "person",
+            "points": {
+                "exterior": [
+                    [
+                        191.84375,
+                        57.3125
+                    ],
+                    [
+                        203.65625,
+                        124.03125
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}
