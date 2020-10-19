@@ -1,0 +1,125 @@
+[
+  {
+    "action": "data",
+    "src": [
+      "cityscapes/*"
+    ],
+    "dst": "$data",
+    "settings": {
+      "classes_mapping": {
+        "bicycle": "vehicle",
+        "bicyclegroup": "vehicle",
+        "bridge": "neutral",
+        "building": "building",
+        "bus": "vehicle",
+        "car": "vehicle",
+        "caravan": "vehicle",
+        "cargroup": "vehicle",
+        "dynamic": "neutral",
+        "ego vehicle": "neutral",
+        "fence": "neutral",
+        "ground": "neutral",
+        "guard rail": "neutral",
+        "license plate": "neutral",
+        "motorcycle": "vehicle",
+        "motorcyclegroup": "vehicle",
+        "out of roi": "neutral",
+        "parking": "road",
+        "person": "person",
+        "persongroup": "person",
+        "pole": "neutral",
+        "polegroup": "neutral",
+        "rail track": "neutral",
+        "rectification border": "neutral",
+        "rider": "person",
+        "ridergroup": "person",
+        "road": "road",
+        "sidewalk": "neutral",
+        "sky": "neutral",
+        "static": "neutral",
+        "terrain": "neutral",
+        "traffic light": "neutral",
+        "traffic sign": "neutral",
+        "trailer": "vehicle",
+        "train": "vehicle",
+        "truck": "vehicle",
+        "tunnel": "neutral",
+        "vegetation": "neutral",
+        "wall": "neutral"
+      }
+    }
+  },
+  {
+    "action": "resize",
+    "src": [
+      "$data"
+    ],
+    "dst": "$data_resized",
+    "settings": {
+      "width": 224,
+      "height": 224,
+      "aspect_ratio": {
+        "keep": false
+      }
+    }
+  },
+  {
+    "action": "objects_filter",
+    "src": [
+      "$data_resized"
+    ],
+    "dst": "$small_filtered",
+    "settings": {
+      "filter_by": {
+        "polygon_sizes": {
+          "filtering_classes": [
+            "vehicle",
+            "road",
+            "person",
+            "building"
+          ],
+          "area_size": {
+            "percent": 0.2
+          },
+          "action": "delete",
+          "comparator": "less"
+        }
+      }
+    }
+  },
+
+  {
+    "action": "drop_obj_by_class",
+    "src": ["$small_filtered" ],
+    "dst": "$dropped_neutral",
+    "settings": {
+    "classes": ["neutral"]
+  }
+  },
+  {
+    "dst": "$boxes",
+    "src": [
+      "$dropped_neutral"
+    ],
+    "action": "bbox",
+    "settings": {
+      "classes_mapping": {
+        "road": "road",
+        "neutral": "neutral",
+        "vehicle": "vehicle",
+        "building": "building",
+        "person": "person"
+      }
+    }
+  },
+
+
+  {
+    "action": "supervisely",
+    "src": [
+      "$boxes"
+    ],
+    "dst": "cityscapes-dtl2",
+    "settings": {}
+  }
+]
