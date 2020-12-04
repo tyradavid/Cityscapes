@@ -1,0 +1,17 @@
+item {
+    id: 1
+    name: 'road'
+}
+
+item {
+    id: 2
+    name: 'vehicle'
+}
+item {
+    id: 3
+    name: 'building'
+}
+item {
+    id: 4
+    name: 'person'
+}
