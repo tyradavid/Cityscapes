@@ -1,0 +1,332 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 90624843,
+            "tagId": 28654265,
+            "name": "train",
+            "value": null,
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-17T23:35:02.816Z",
+            "updatedAt": "2020-10-17T23:35:02.816Z"
+        }
+    ],
+    "size": {
+        "height": 224,
+        "width": 224
+    },
+    "objects": [
+        {
+            "id": 544192579,
+            "classId": 2537979,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.484Z",
+            "updatedAt": "2020-10-18T23:24:33.484Z",
+            "tags": [],
+            "classTitle": "road",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        87.5
+                    ],
+                    [
+                        223.890625,
+                        223.78125
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192577,
+            "classId": 2537982,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.483Z",
+            "updatedAt": "2020-10-18T23:24:33.483Z",
+            "tags": [],
+            "classTitle": "building",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        0
+                    ],
+                    [
+                        223.890625,
+                        132.78125
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192572,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.482Z",
+            "updatedAt": "2020-10-18T23:24:33.482Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        118.453125,
+                        90.5625
+                    ],
+                    [
+                        127.75,
+                        108.5
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192571,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.482Z",
+            "updatedAt": "2020-10-18T23:24:33.482Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        123.921875,
+                        89.90625
+                    ],
+                    [
+                        133.875,
+                        117.6875
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192567,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.481Z",
+            "updatedAt": "2020-10-18T23:24:33.481Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        127.640625,
+                        87.28125
+                    ],
+                    [
+                        141.75,
+                        122.71875
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192566,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.481Z",
+            "updatedAt": "2020-10-18T23:24:33.481Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        133.875,
+                        84.65625
+                    ],
+                    [
+                        156.40625,
+                        129.5
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192565,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.481Z",
+            "updatedAt": "2020-10-18T23:24:33.481Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        143.28125,
+                        85.53125
+                    ],
+                    [
+                        195.671875,
+                        150.71875
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192562,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.481Z",
+            "updatedAt": "2020-10-18T23:24:33.481Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        95.375,
+                        91
+                    ],
+                    [
+                        106.09375,
+                        107.40625
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192559,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.480Z",
+            "updatedAt": "2020-10-18T23:24:33.480Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        78.859375,
+                        91.65625
+                    ],
+                    [
+                        88.703125,
+                        109.375
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192557,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.480Z",
+            "updatedAt": "2020-10-18T23:24:33.480Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        60.265625,
+                        87.28125
+                    ],
+                    [
+                        78.421875,
+                        119.21875
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192554,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.480Z",
+            "updatedAt": "2020-10-18T23:24:33.480Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        55.890625,
+                        90.125
+                    ],
+                    [
+                        68.46875,
+                        126
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192553,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.480Z",
+            "updatedAt": "2020-10-18T23:24:33.480Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        30.40625,
+                        81.8125
+                    ],
+                    [
+                        61.46875,
+                        135.625
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544192552,
+            "classId": 2537981,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:33.480Z",
+            "updatedAt": "2020-10-18T23:24:33.480Z",
+            "tags": [],
+            "classTitle": "vehicle",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        85.09375
+                    ],
+                    [
+                        41.234375,
+                        155.3125
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

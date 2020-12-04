@@ -1,0 +1,92 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "id": 90625333,
+            "tagId": 28654266,
+            "name": "val",
+            "value": null,
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-17T23:35:42.278Z",
+            "updatedAt": "2020-10-17T23:35:42.278Z"
+        }
+    ],
+    "size": {
+        "height": 224,
+        "width": 224
+    },
+    "objects": [
+        {
+            "id": 544225629,
+            "classId": 2537979,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:48.530Z",
+            "updatedAt": "2020-10-18T23:24:48.530Z",
+            "tags": [],
+            "classTitle": "road",
+            "points": {
+                "exterior": [
+                    [
+                        0,
+                        95.375
+                    ],
+                    [
+                        223.890625,
+                        223.78125
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544225628,
+            "classId": 2537982,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:48.530Z",
+            "updatedAt": "2020-10-18T23:24:48.530Z",
+            "tags": [],
+            "classTitle": "building",
+            "points": {
+                "exterior": [
+                    [
+                        89.03125,
+                        0
+                    ],
+                    [
+                        218.3125,
+                        98
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "id": 544225627,
+            "classId": 2537982,
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "tyra1014",
+            "createdAt": "2020-10-18T23:24:48.529Z",
+            "updatedAt": "2020-10-18T23:24:48.529Z",
+            "tags": [],
+            "classTitle": "building",
+            "points": {
+                "exterior": [
+                    [
+                        14.875,
+                        61.90625
+                    ],
+                    [
+                        70.4375,
+                        93.40625
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}
