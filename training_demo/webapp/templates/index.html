@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+   <script src="/static/js/main.js"></script>
+</head>
+
+<body>
+
+   {% if tab_to_show == 'cityscapes' %}
+   <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'CITYSCAPES')" id="defaultOpen">CITYSCAPES</button>
+   </div>
+   
+   {% endif %}
+
+   <!-- Tab for CITYSCAPES classification -->
+   <div id="CITYSCAPES" class="tabcontent">
+      <h1 class="title"> CITYSCAPES FLASK APP DEMO </h1>
+
+      <form id="form" method="POST" enctype="multipart/form-data">
+
+         <input type="hidden" name="predictor" value="cityscapes">
+
+         {% if prediction != None %}
+         <!-- Show prediction results. -->
+         <img src="data:image/png;base64,{{prediction}}" />          
+         {% endif %}
+         <!-- Show upload button for follow up predictions. -->
+         <label for="file-upload" class="center custom-button">
+            upload an image
+            <input type="file" id="file-upload" name="image" onchange=submit() />
+         </label>
+      </form>
+   </div>
+
+   <script>
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+   </script>
+
+</body>
+
+</html>
