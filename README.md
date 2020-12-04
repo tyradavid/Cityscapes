@@ -17,7 +17,6 @@ Go to **localhost:5000** to access the application from the browser of your choi
 |   Data Selection Proposal.pdf
 |   Model Update (Deliverable 3).pdf
 |   README.md
-|   tree.txt
 |   
 \---training_demo
     |   
